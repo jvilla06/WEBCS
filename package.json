@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npx http-server . -p 3000",
     "dev": "npx http-server . -p 3000 -o",
-    "build": "echo 'No build process needed for static site'",
+    "build": "cp index.html index.html",
     "deploy": "vercel --prod"
   },
   "keywords": [
