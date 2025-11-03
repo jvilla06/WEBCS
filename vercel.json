@@ -1,33 +1,11 @@
 {
   "version": 2,
   "name": "calidad-de-software",
-  "builds": [
-    {
-      "src": "*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "*.js",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/(.*\\.(css|js|jpg|jpeg|png|gif|webp|svg|ico))",
       "headers": [
         {
           "key": "Cache-Control",
@@ -36,7 +14,7 @@
       ]
     },
     {
-      "source": "/*.html",
+      "source": "/(.*\\.html)",
       "headers": [
         {
           "key": "Cache-Control",
