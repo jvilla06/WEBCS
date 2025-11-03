@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calidad de Software - Guía Completa</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <i class="fas fa-code-branch"></i>
+                <span>Calidad de Software</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#normas" class="nav-link">Normas</a></li>
+                <li><a href="#modelos" class="nav-link">Modelos</a></li>
+                <li><a href="#estandares" class="nav-link">Estándares</a></li>
+                <li><a href="#programacion" class="nav-link">Código</a></li>
+                <li><a href="#pruebas" class="nav-link">Pruebas</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="hero-content">
+                <h1 class="hero-title">Calidad de Software</h1>
+                <p class="hero-subtitle">Una guía completa para el desarrollo de software de alta calidad en entornos educativos y profesionales</p>
+                <div class="hero-buttons">
+                    <a href="#normas" class="btn btn-primary">Explorar Contenido</a>
+                    <a href="#video" class="btn btn-secondary">Ver Video</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Introducción -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>¿Qué es la Calidad de Software?</h2>
+                <p>La calidad de software es el grado en que un sistema, componente o proceso cumple con los requisitos especificados y las expectativas del usuario. Es un concepto multidimensional que abarca aspectos funcionales, no funcionales y de proceso.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Confiabilidad</h3>
+                        <p>Software que funciona correctamente bajo condiciones específicas</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Performance</h3>
+                        <p>Optimización del rendimiento y uso eficiente de recursos</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Usabilidad</h3>
+                        <p>Facilidad de uso y experiencia del usuario intuitiva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Normas -->
+    <section id="normas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Normas de Calidad</h2>
+                <p>Las normas establecen los criterios y directrices para asegurar la calidad en el desarrollo de software</p>
+            </div>
+            
+            <div class="content-grid">
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>ISO/IEC 25010</h3>
+                    <p>Define el modelo de calidad para sistemas y software, estableciendo ocho características principales de calidad: funcionalidad, confiabilidad, usabilidad, eficiencia, mantenibilidad, portabilidad, compatibilidad y seguridad.</p>
+                    <ul>
+                        <li>Funcionalidad adecuada</li>
+                        <li>Confiabilidad en operación</li>
+                        <li>Usabilidad efectiva</li>
+                        <li>Eficiencia de rendimiento</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>ISO/IEC 12207</h3>
+                    <p>Establece un marco común para los procesos del ciclo de vida del software, desde la concepción hasta el retiro del sistema.</p>
+                    <ul>
+                        <li>Procesos de acuerdo</li>
+                        <li>Procesos organizacionales</li>
+                        <li>Procesos de proyecto</li>
+                        <li>Procesos técnicos</li>
+                    </ul>
+                </div>
+                
+                <div class="content-card">
+                    <div class="card-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>IEEE 730</h3>
+                    <p>Estándar para planes de aseguramiento de la calidad del software, definiendo los elementos necesarios para un programa efectivo de SQA.</p>
+                    <ul>
+                        <li>Planificación de calidad</li>
+                        <li>Control de configuración</li>
+                        <li>Revisiones y auditorías</li>
+                        <li>Gestión de no conformidades</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelos -->
+    <section id="modelos" class="section alternate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Modelos de Calidad</h2>
+                <p>Los modelos proporcionan marcos estructurados para evaluar y mejorar la calidad del software</p>
+            </div>
+            
+            <div class="models-container">
+                <div class="model-card">
+                    <div class="model-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>CMMI (Capability Maturity Model Integration)</h3>
+                    </div>
+                    <div class="model-content">
+                        <p>Modelo de madurez que ayuda a las organizaciones a mejorar sus procesos y capacidades.</p>
+                        <div class="maturity-levels">
+                            <div class="level">
+                                <span class="level-number">1</span>
+                                <div class="level-info">
+                                    <h4>Inicial</h4>
+                                    <p>Procesos impredecibles y reactivos</p>
+                                </div>
+                            </div>
+                            <div class="level">
+                                <span class="level-number">2</span>
+                                <div class="level-info">
+                                    <h4>Gestionado</h4>
+                                    <p>Procesos caracterizados por proyectos</p>
+                                </div>
+                            </div>
+                            <div class="level">
+                                <span class="level-number">3</span>
+                                <div class="level-info">
+                                    <h4>Definido</h4>
+                                    <p>Procesos caracterizados por la organización</p>
+                                </div>
+                            </div>
+                            <div class="level">
+                                <span class="level-number">4</span>
+                                <div class="level-info">
+                                    <h4>Gestionado Cuantitativamente</h4>
+                                    <p>Procesos medidos y controlados</p>
+                                </div>
+                            </div>
+                            <div class="level">
+                                <span class="level-number">5</span>
+                                <div class="level-info">
+                                    <h4>Optimizado</h4>
+                                    <p>Enfoque en mejora continua</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="model-card">
+                    <div class="model-header">
+                        <i class="fas fa-infinity"></i>
+                        <h3>Six Sigma</h3>
+                    </div>
+                    <div class="model-content">
+                        <p>Metodología que utiliza herramientas estadísticas para reducir la variabilidad en los procesos.</p>
+                        <div class="sigma-phases">
+                            <div class="phase">
+                                <h4>Definir</h4>
+                                <p>Identificar problemas y objetivos</p>
+                            </div>
+                            <div class="phase">
+                                <h4>Medir</h4>
+                                <p>Recopilar datos del proceso actual</p>
+                            </div>
+                            <div class="phase">
+                                <h4>Analizar</h4>
+                                <p>Identificar causas raíz</p>
+                            </div>
+                            <div class="phase">
+                                <h4>Mejorar</h4>
+                                <p>Implementar soluciones</p>
+                            </div>
+                            <div class="phase">
+                                <h4>Controlar</h4>
+                                <p>Mantener las mejoras</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estándares -->
+    <section id="estandares" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Estándares de Calidad</h2>
+                <p>Especificaciones técnicas que definen criterios uniformes para el desarrollo de software</p>
+            </div>
+            
+            <div class="standards-grid">
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Estándares de Codificación</h3>
+                    <div class="standard-content">
+                        <ul>
+                            <li><strong>Convenciones de nombrado:</strong> Variables, funciones y clases con nombres descriptivos</li>
+                            <li><strong>Indentación consistente:</strong> Uso uniforme de espacios o tabs</li>
+                            <li><strong>Comentarios efectivos:</strong> Documentación clara del código</li>
+                            <li><strong>Estructura modular:</strong> Código organizado en módulos reutilizables</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Estándares de Documentación</h3>
+                    <div class="standard-content">
+                        <ul>
+                            <li><strong>Especificación de requisitos:</strong> Documentación clara y completa</li>
+                            <li><strong>Diseño de arquitectura:</strong> Diagramas y especificaciones técnicas</li>
+                            <li><strong>Manual de usuario:</strong> Guías de uso comprensibles</li>
+                            <li><strong>Documentación técnica:</strong> APIs y referencias de desarrollo</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Estándares de Seguridad</h3>
+                    <div class="standard-content">
+                        <ul>
+                            <li><strong>OWASP Top 10:</strong> Vulnerabilidades más críticas</li>
+                            <li><strong>Autenticación segura:</strong> Gestión robusta de credenciales</li>
+                            <li><strong>Encriptación de datos:</strong> Protección de información sensible</li>
+                            <li><strong>Auditoría y logging:</strong> Registro de actividades del sistema</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Código y Programación -->
+    <section id="programacion" class="section alternate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Código y Programación</h2>
+                <p>Buenas prácticas para escribir código mantenible, legible y eficiente</p>
+            </div>
+            
+            <div class="programming-content">
+                <div class="practice-grid">
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3>Control de Versiones</h3>
+                        <p>Uso de sistemas como Git para el seguimiento de cambios y colaboración en equipo.</p>
+                        <div class="code-example">
+                            <pre><code>git init
+git add .
+git commit -m "Initial commit"
+git branch feature/nueva-funcionalidad
+git checkout feature/nueva-funcionalidad</code></pre>
+                        </div>
+                    </div>
+                    
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Principios SOLID</h3>
+                        <p>Cinco principios fundamentales del diseño orientado a objetos para código mantenible.</p>
+                        <ul class="solid-principles">
+                            <li><strong>S</strong> - Single Responsibility</li>
+                            <li><strong>O</strong> - Open/Closed</li>
+                            <li><strong>L</strong> - Liskov Substitution</li>
+                            <li><strong>I</strong> - Interface Segregation</li>
+                            <li><strong>D</strong> - Dependency Inversion</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="practice-card">
+                        <div class="practice-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Refactoring</h3>
+                        <p>Mejora continua del código sin cambiar su funcionalidad externa.</p>
+                        <div class="refactoring-benefits">
+                            <ul>
+                                <li>Mejora la legibilidad</li>
+                                <li>Reduce la complejidad</li>
+                                <li>Facilita el mantenimiento</li>
+                                <li>Elimina código duplicado</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="code-quality-metrics">
+                    <h3>Métricas de Calidad del Código</h3>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <h4>Complejidad Ciclomática</h4>
+                            <p>Mide la complejidad de un programa basándose en el número de caminos linealmente independientes</p>
+                        </div>
+                        <div class="metric">
+                            <h4>Cobertura de Código</h4>
+                            <p>Porcentaje del código fuente que es ejecutado durante las pruebas</p>
+                        </div>
+                        <div class="metric">
+                            <h4>Duplicación de Código</h4>
+                            <p>Identificación y medición de código repetido en el proyecto</p>
+                        </div>
+                        <div class="metric">
+                            <h4>Deuda Técnica</h4>
+                            <p>Costo de trabajo adicional causado por elegir una solución rápida en lugar de la mejor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pruebas y Evaluación -->
+    <section id="pruebas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pruebas y Evaluación</h2>
+                <p>Estrategias y metodologías para validar la calidad del software</p>
+            </div>
+            
+            <div class="testing-pyramid">
+                <h3>Pirámide de Pruebas</h3>
+                <div class="pyramid">
+                    <div class="pyramid-level level-1">
+                        <div class="level-content">
+                            <h4>Pruebas Unitarias</h4>
+                            <p>Verifican el funcionamiento de componentes individuales</p>
+                        </div>
+                    </div>
+                    <div class="pyramid-level level-2">
+                        <div class="level-content">
+                            <h4>Pruebas de Integración</h4>
+                            <p>Validan la interacción entre componentes</p>
+                        </div>
+                    </div>
+                    <div class="pyramid-level level-3">
+                        <div class="level-content">
+                            <h4>Pruebas End-to-End</h4>
+                            <p>Simulan escenarios completos de usuario</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testing-types">
+                <div class="test-type">
+                    <div class="test-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Pruebas Funcionales</h3>
+                    <ul>
+                        <li>Pruebas de caja negra</li>
+                        <li>Pruebas de regresión</li>
+                        <li>Pruebas de aceptación</li>
+                        <li>Pruebas de usabilidad</li>
+                    </ul>
+                </div>
+                
+                <div class="test-type">
+                    <div class="test-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Pruebas No Funcionales</h3>
+                    <ul>
+                        <li>Pruebas de rendimiento</li>
+                        <li>Pruebas de carga</li>
+                        <li>Pruebas de seguridad</li>
+                        <li>Pruebas de compatibilidad</li>
+                    </ul>
+                </div>
+                
+                <div class="test-type">
+                    <div class="test-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automatización</h3>
+                    <ul>
+                        <li>CI/CD pipelines</li>
+                        <li>Pruebas automatizadas</li>
+                        <li>Análisis estático de código</li>
+                        <li>Deployment automático</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="section alternate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Importancia y Beneficios de la Calidad de Software</h2>
+                <p>Descubre cómo la implementación de prácticas de calidad transforma el desarrollo de software</p>
+            </div>
+
+            <!-- Video Embed -->
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/TU_ID_DE_VIDEO_AQUI" 
+                        title="Calidad de Software - Importancia y Beneficios"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h3>¿Por qué es crucial la calidad de software?</h3>
+                    <p>Este video explora los aspectos fundamentales de la calidad de software y su impacto en:</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Reducción de costos de mantenimiento</li>
+                        <li><i class="fas fa-check"></i> Mejora de la satisfacción del usuario</li>
+                        <li><i class="fas fa-check"></i> Incremento de la productividad del equipo</li>
+                        <li><i class="fas fa-check"></i> Minimización de riesgos del proyecto</li>
+                        <li><i class="fas fa-check"></i> Competitividad en el mercado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusiones -->
+    <section id="conclusiones" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Conclusiones</h2>
+                <p>Reflexiones finales sobre la importancia de la calidad en el desarrollo de software</p>
+            </div>
+            
+            <div class="conclusions-grid">
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Inversión a Largo Plazo</h3>
+                    <p>La implementación de prácticas de calidad requiere inversión inicial pero genera beneficios exponenciales a largo plazo, reduciendo costos de mantenimiento y mejorando la satisfacción del cliente.</p>
+                </div>
+                
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Cultura Organizacional</h3>
+                    <p>La calidad de software debe ser parte integral de la cultura organizacional, requiriendo compromiso desde la alta dirección hasta los desarrolladores individuales.</p>
+                </div>
+                
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Mejora Continua</h3>
+                    <p>Los procesos de calidad deben evolucionar constantemente, adaptándose a nuevas tecnologías, metodologías y requisitos del mercado para mantener su efectividad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section id="recomendaciones" class="section alternate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recomendaciones</h2>
+                <p>Guía práctica para implementar calidad de software en tu organización</p>
+            </div>
+            
+            <div class="recommendations">
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-graduation-cap"></i> Para Entornos Educativos</h3>
+                    <ul class="recommendation-list">
+                        <li>Integrar conceptos de calidad desde los cursos básicos de programación</li>
+                        <li>Utilizar herramientas de análisis estático de código en proyectos estudiantiles</li>
+                        <li>Fomentar la práctica de code reviews entre estudiantes</li>
+                        <li>Implementar proyectos colaborativos con control de versiones</li>
+                        <li>Enseñar metodologías ágiles y su enfoque en la calidad</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-building"></i> Para Ambientes Profesionales</h3>
+                    <ul class="recommendation-list">
+                        <li>Establecer un proceso formal de aseguramiento de calidad</li>
+                        <li>Implementar pipelines de CI/CD con gates de calidad</li>
+                        <li>Capacitar continuamente al equipo en nuevas prácticas y herramientas</li>
+                        <li>Definir métricas de calidad específicas para cada proyecto</li>
+                        <li>Realizar auditorías regulares de código y procesos</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-tools"></i> Herramientas Recomendadas</h3>
+                    <ul class="recommendation-list">
+                        <li><strong>SonarQube:</strong> Análisis continuo de calidad de código</li>
+                        <li><strong>Jenkins/GitLab CI:</strong> Integración y deployment continuo</li>
+                        <li><strong>Jest/JUnit:</strong> Frameworks de testing automatizado</li>
+                        <li><strong>ESLint/PMD:</strong> Linters para diferentes lenguajes</li>
+                        <li><strong>OWASP ZAP:</strong> Análisis de seguridad en aplicaciones</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="implementation-roadmap">
+                <h3>Hoja de Ruta para la Implementación</h3>
+                <div class="roadmap">
+                    <div class="roadmap-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Evaluación Inicial</h4>
+                            <p>Auditar el estado actual de calidad en la organización</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Definición de Estándares</h4>
+                            <p>Establecer normas y procedimientos de calidad específicos</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Capacitación del Equipo</h4>
+                            <p>Formar al personal en las nuevas prácticas y herramientas</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Implementación Gradual</h4>
+                            <p>Aplicar las prácticas de forma incremental en proyectos piloto</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Monitoreo y Mejora</h4>
+                            <p>Evaluar resultados y ajustar procesos continuamente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Calidad de Software</h3>
+                    <p>Guía completa para el desarrollo de software de alta calidad en entornos educativos y profesionales.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#normas">Normas ISO</a></li>
+                        <li><a href="#modelos">Modelos CMMI</a></li>
+                        <li><a href="#estandares">Estándares</a></li>
+                        <li><a href="#pruebas">Metodologías de Testing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Herramientas</h4>
+                    <ul>
+                        <li><a href="#">SonarQube</a></li>
+                        <li><a href="#">Jenkins</a></li>
+                        <li><a href="#">Git</a></li>
+                        <li><a href="#">OWASP</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calidad de Software. Proyecto educativo sobre mejores prácticas en desarrollo de software.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

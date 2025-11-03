@@ -1,0 +1,33 @@
+{
+  "name": "calidad-de-software-web",
+  "version": "1.0.0",
+  "description": "Página web educativa sobre calidad de software con todos los componentes esenciales para el desarrollo de software de alta calidad",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "dev": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "calidad-software",
+    "software-quality",
+    "normas-iso",
+    "cmmi",
+    "six-sigma",
+    "testing",
+    "programacion",
+    "educacion",
+    "desarrollo-software"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/calidad-software-web.git"
+  },
+  "homepage": "https://tu-proyecto.vercel.app",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
