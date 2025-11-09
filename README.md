@@ -2,6 +2,8 @@
 
 Una página web moderna y completa sobre calidad de software, diseñada para contextos educativos y profesionales.
 
+<!-- Redeploy trigger: updated to force Vercel rebuild -->
+
 ## 📋 Descripción
 
 Este proyecto presenta una guía integral sobre calidad de software que incluye todos los componentes esenciales para el desarrollo de software de alta calidad. La página está diseñada con un enfoque moderno y responsivo, ideal para estudiantes, profesores y profesionales del desarrollo de software.
