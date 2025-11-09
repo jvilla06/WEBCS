@@ -18,16 +18,12 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#inicio" class="nav-link">Inicio</a></li>
-                <li><a href="#introduccion" class="nav-link">Introducción</a></li>
                 <li><a href="#normas" class="nav-link">Normas</a></li>
                 <li><a href="#modelos" class="nav-link">Modelos</a></li>
                 <li><a href="#estandares" class="nav-link">Estándares</a></li>
-                <li><a href="#codigo" class="nav-link">Código</a></li>
+                <li><a href="#programacion" class="nav-link">Código</a></li>
                 <li><a href="#pruebas" class="nav-link">Pruebas</a></li>
-                <li><a href="#evaluacion-zajuna" class="nav-link">Evaluación Práctica</a></li>
                 <li><a href="#video" class="nav-link">Video</a></li>
-                <li><a href="#conclusiones" class="nav-link">Conclusiones</a></li>
-                <li><a href="#recomendaciones" class="nav-link">Recomendaciones</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -447,437 +443,7 @@ git checkout feature/nueva-funcionalidad</code></pre>
         </div>
     </section>
 
-    <!-- ==================================================
-    EVALUACIÓN ZAJUNA
-    ================================================== -->
-    <section id="evaluacion-zajuna" class="section alternate">
-        <div class="container">
-            <!-- Header -->
-            <div class="evaluation-header" style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: var(--white); border-radius: 12px;">
-                <h1 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;"><i class="fas fa-chart-line"></i> Modelo de Evaluación Cuantitativa</h1>
-                <p style="font-size: 1.2rem; opacity: 0.9;">Análisis integral de calidad de software aplicado a Zajuna SENA</p>
-            </div>
-
-            <!-- Metodología -->
-            <div class="methodology" style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 2rem;">
-                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;"><i class="fas fa-cogs"></i> Metodología de Evaluación</h2>
-                <p>Este modelo evalúa la calidad de software mediante 6 pruebas cuantitativas basadas en estándares ISO/IEC 25010. Cada métrica se puntúa de 0 a 100 puntos.</p>
-                
-                <div class="formula" style="background: var(--gray-100); padding: 1rem; border-radius: 8px; font-family: 'Courier New', monospace; margin: 1rem 0; text-align: center; font-weight: 600;">
-                    Puntaje Total = (Σ(Métrica × Peso)) / Σ(Pesos) × 100
-                </div>
-
-                <table style="width: 100%; border-collapse: collapse; margin: 1rem 0;">
-                    <thead>
-                        <tr>
-                            <th style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200); background: var(--gray-100); font-weight: 600;">Métrica</th>
-                            <th style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200); background: var(--gray-100); font-weight: 600;">Peso</th>
-                            <th style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200); background: var(--gray-100); font-weight: 600;">Criterios de Evaluación</th>
-                            <th style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200); background: var(--gray-100); font-weight: 600;">Herramientas</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Funcionalidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">25%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Completitud, Corrección, Pertinencia</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Pruebas manuales, Selenium</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Rendimiento</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">20%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Tiempo de respuesta, Throughput, Uso de recursos</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Lighthouse, GTmetrix, WebPageTest</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Usabilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">20%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Navegabilidad, Accesibilidad, Comprensibilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">WAVE, axe-core, Pruebas de usuario</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Confiabilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">15%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Disponibilidad, Tolerancia a fallos, Recuperabilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">UptimeRobot, Monitoreo de errores</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Seguridad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">15%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Autenticación, Autorización, Protección de datos</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">OWASP ZAP, SSL Labs, SecurityHeaders</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Mantenibilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">5%</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">Modularidad, Reutilización, Analizabilidad</td>
-                            <td style="padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--gray-200);">SonarQube, Análisis de código</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Resultados de Evaluación -->
-            <div class="evaluation-grid">
-                <!-- Prueba 1: Funcionalidad -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--primary-color);">
-                            <i class="fas fa-check-circle"></i>
-                        </div>
-                        <h3 class="metric-title">1. Funcionalidad</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-good" id="functionality-score">78</div>
-                        <div class="score-label">Bueno</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Completitud funcional</span>
-                            <span class="criteria-score" style="background: var(--success-color);">85</span>
-                        </li>
-                        <li>
-                            <span>Corrección funcional</span>
-                            <span class="criteria-score" style="background: var(--info-color);">75</span>
-                        </li>
-                        <li>
-                            <span>Pertinencia funcional</span>
-                            <span class="criteria-score" style="background: var(--info-color);">74</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Prueba 2: Rendimiento -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--warning-color);">
-                            <i class="fas fa-tachometer-alt"></i>
-                        </div>
-                        <h3 class="metric-title">2. Rendimiento</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-average" id="performance-score">65</div>
-                        <div class="score-label">Regular</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Tiempo de respuesta</span>
-                            <span class="criteria-score" style="background: var(--warning-color);">60</span>
-                        </li>
-                        <li>
-                            <span>Utilización de recursos</span>
-                            <span class="criteria-score" style="background: var(--info-color);">72</span>
-                        </li>
-                        <li>
-                            <span>Capacidad</span>
-                            <span class="criteria-score" style="background: var(--warning-color);">63</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Prueba 3: Usabilidad -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--info-color);">
-                            <i class="fas fa-user-friends"></i>
-                        </div>
-                        <h3 class="metric-title">3. Usabilidad</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-good" id="usability-score">72</div>
-                        <div class="score-label">Bueno</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Reconocibilidad</span>
-                            <span class="criteria-score" style="background: var(--success-color);">80</span>
-                        </li>
-                        <li>
-                            <span>Facilidad de aprendizaje</span>
-                            <span class="criteria-score" style="background: var(--info-color);">70</span>
-                        </li>
-                        <li>
-                            <span>Accesibilidad</span>
-                            <span class="criteria-score" style="background: var(--warning-color);">66</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Prueba 4: Confiabilidad -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--success-color);">
-                            <i class="fas fa-shield-alt"></i>
-                        </div>
-                        <h3 class="metric-title">4. Confiabilidad</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-excellent" id="reliability-score">88</div>
-                        <div class="score-label">Excelente</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Madurez</span>
-                            <span class="criteria-score" style="background: var(--success-color);">90</span>
-                        </li>
-                        <li>
-                            <span>Disponibilidad</span>
-                            <span class="criteria-score" style="background: var(--success-color);">88</span>
-                        </li>
-                        <li>
-                            <span>Tolerancia a fallos</span>
-                            <span class="criteria-score" style="background: var(--success-color);">86</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Prueba 5: Seguridad -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--secondary-color);">
-                            <i class="fas fa-lock"></i>
-                        </div>
-                        <h3 class="metric-title">5. Seguridad</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-good" id="security-score">76</div>
-                        <div class="score-label">Bueno</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Confidencialidad</span>
-                            <span class="criteria-score" style="background: var(--success-color);">82</span>
-                        </li>
-                        <li>
-                            <span>Integridad</span>
-                            <span class="criteria-score" style="background: var(--info-color);">75</span>
-                        </li>
-                        <li>
-                            <span>Autenticidad</span>
-                            <span class="criteria-score" style="background: var(--info-color);">71</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Prueba 6: Mantenibilidad -->
-                <div class="metric-card">
-                    <div class="metric-header">
-                        <div class="metric-icon" style="background: var(--gray-700);">
-                            <i class="fas fa-wrench"></i>
-                        </div>
-                        <h3 class="metric-title">6. Mantenibilidad</h3>
-                    </div>
-                    <div class="score-display">
-                        <div class="score-circle score-average" id="maintainability-score">69</div>
-                        <div class="score-label">Regular</div>
-                    </div>
-                    <ul class="criteria-list">
-                        <li>
-                            <span>Modularidad</span>
-                            <span class="criteria-score" style="background: var(--info-color);">72</span>
-                        </li>
-                        <li>
-                            <span>Reutilización</span>
-                            <span class="criteria-score" style="background: var(--warning-color);">68</span>
-                        </li>
-                        <li>
-                            <span>Analizabilidad</span>
-                            <span class="criteria-score" style="background: var(--warning-color);">67</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Resumen General -->
-            <div class="summary-section" style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 2rem;">
-                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;"><i class="fas fa-chart-pie"></i> Resumen General de Calidad</h2>
-                <div class="summary-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem;">
-                    <div class="summary-item" style="text-align: center; padding: 1.5rem; background: var(--gray-100); border-radius: 8px;">
-                        <div class="summary-score" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--info-color);" id="overall-score">74.2</div>
-                        <div class="summary-label" style="font-weight: 600; color: var(--gray-700);">Puntaje General</div>
-                    </div>
-                    <div class="summary-item" style="text-align: center; padding: 1.5rem; background: var(--gray-100); border-radius: 8px;">
-                        <div class="summary-score" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--success-color);">B</div>
-                        <div class="summary-label" style="font-weight: 600; color: var(--gray-700);">Calificación</div>
-                    </div>
-                    <div class="summary-item" style="text-align: center; padding: 1.5rem; background: var(--gray-100); border-radius: 8px;">
-                        <div class="summary-score" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--warning-color);">8</div>
-                        <div class="summary-label" style="font-weight: 600; color: var(--gray-700);">Mejoras Identificadas</div>
-                    </div>
-                    <div class="summary-item" style="text-align: center; padding: 1.5rem; background: var(--gray-100); border-radius: 8px;">
-                        <div class="summary-score" style="font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--error-color);">3</div>
-                        <div class="summary-label" style="font-weight: 600; color: var(--gray-700);">Críticas</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Detalles de las Pruebas -->
-            <div class="test-details" style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); margin-bottom: 2rem;">
-                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;"><i class="fas fa-clipboard-list"></i> Detalles de Pruebas Realizadas</h2>
-                
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 1: Análisis Funcional</h3>
-                    <p><strong>Objetivo:</strong> Verificar que todas las funcionalidades principales operan correctamente.</p>
-                    <p><strong>Método:</strong> Pruebas manuales y automatizadas de casos de uso críticos.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 78%; background: var(--info-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>✅ Login de usuarios funciona correctamente</li>
-                        <li>✅ Navegación principal operativa</li>
-                        <li>✅ Búsqueda de cursos disponible</li>
-                        <li>⚠️ Algunos enlaces externos no funcionan</li>
-                        <li>❌ Formularios sin validación adecuada</li>
-                    </ul>
-                </div>
-
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 2: Análisis de Rendimiento</h3>
-                    <p><strong>Objetivo:</strong> Medir tiempos de carga y optimización de recursos.</p>
-                    <p><strong>Método:</strong> Herramientas Lighthouse, GTmetrix y análisis de Network.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 65%; background: var(--warning-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>⚠️ Tiempo de carga inicial: 4.2s (Meta: <3s)</li>
-                        <li>❌ Imágenes sin optimizar: 2.1MB total</li>
-                        <li>✅ CDN configurado correctamente</li>
-                        <li>⚠️ Cache-control headers parciales</li>
-                        <li>❌ JavaScript sin minificar</li>
-                    </ul>
-                </div>
-
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 3: Evaluación de Usabilidad</h3>
-                    <p><strong>Objetivo:</strong> Analizar la experiencia del usuario y accesibilidad.</p>
-                    <p><strong>Método:</strong> Heurísticas de Nielsen, WAVE, pruebas con usuarios.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 72%; background: var(--info-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>✅ Navegación intuitiva y clara</li>
-                        <li>✅ Diseño responsive funcional</li>
-                        <li>⚠️ Contraste de colores mejorable</li>
-                        <li>❌ Falta de etiquetas alt en imágenes</li>
-                        <li>⚠️ Textos pequeños en móvil</li>
-                    </ul>
-                </div>
-
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 4: Testing de Confiabilidad</h3>
-                    <p><strong>Objetivo:</strong> Evaluar estabilidad y disponibilidad del sistema.</p>
-                    <p><strong>Método:</strong> Monitoreo 24/7, pruebas de estrés, análisis de logs.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 88%; background: var(--success-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>✅ Uptime del 99.2% último mes</li>
-                        <li>✅ Recuperación automática funcionando</li>
-                        <li>✅ Manejo de errores implementado</li>
-                        <li>✅ Backup y redundancia operativa</li>
-                        <li>⚠️ Tiempos de recuperación mejorables</li>
-                    </ul>
-                </div>
-
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 5: Auditoría de Seguridad</h3>
-                    <p><strong>Objetivo:</strong> Verificar implementación de medidas de seguridad.</p>
-                    <p><strong>Método:</strong> OWASP ZAP, SSL Labs, análisis de headers de seguridad.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 76%; background: var(--info-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>✅ HTTPS configurado correctamente</li>
-                        <li>✅ Autenticación segura implementada</li>
-                        <li>⚠️ Headers de seguridad incompletos</li>
-                        <li>❌ Vulnerabilidad XSS detectada</li>
-                        <li>⚠️ Política de passwords mejorable</li>
-                    </ul>
-                </div>
-
-                <div class="test-item" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem;">
-                    <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Prueba 6: Análisis de Mantenibilidad</h3>
-                    <p><strong>Objetivo:</strong> Evaluar la facilidad de mantenimiento del código.</p>
-                    <p><strong>Método:</strong> SonarQube, análisis estático, revisión de arquitectura.</p>
-                    <div class="progress-bar" style="width: 100%; height: 20px; background: var(--gray-200); border-radius: 10px; overflow: hidden; margin: 0.5rem 0;">
-                        <div class="progress-fill" style="width: 69%; background: var(--warning-color); height: 100%; border-radius: 10px; transition: width 0.3s ease;"></div>
-                    </div>
-                    <p><strong>Resultados:</strong></p>
-                    <ul>
-                        <li>⚠️ Complejidad ciclomática alta en módulos</li>
-                        <li>❌ Documentación técnica insuficiente</li>
-                        <li>✅ Separación de responsabilidades clara</li>
-                        <li>⚠️ Código duplicado identificado</li>
-                        <li>❌ Tests unitarios limitados</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Recomendaciones -->
-            <div class="recommendations-zajuna" style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-                <h2 style="color: var(--primary-color); margin-bottom: 1.5rem;"><i class="fas fa-lightbulb"></i> Recomendaciones de Mejora</h2>
-                
-                <div class="recommendation-item" style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: var(--gray-100); border-radius: 8px;">
-                    <div class="recommendation-icon priority-high" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.2rem; color: var(--white); flex-shrink: 0; background: var(--error-color);">
-                        <i class="fas fa-exclamation"></i>
-                    </div>
-                    <div>
-                        <h4>Alta Prioridad: Optimización de Rendimiento</h4>
-                        <p>Implementar compresión de imágenes, minificación de recursos y lazy loading para reducir el tiempo de carga de 4.2s a menos de 3s.</p>
-                    </div>
-                </div>
-
-                <div class="recommendation-item" style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: var(--gray-100); border-radius: 8px;">
-                    <div class="recommendation-icon priority-high" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.2rem; color: var(--white); flex-shrink: 0; background: var(--error-color);">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div>
-                        <h4>Alta Prioridad: Corrección de Vulnerabilidades</h4>
-                        <p>Solucionar la vulnerabilidad XSS detectada e implementar headers de seguridad completos (CSP, HSTS, X-Frame-Options).</p>
-                    </div>
-                </div>
-
-                <div class="recommendation-item" style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: var(--gray-100); border-radius: 8px;">
-                    <div class="recommendation-icon priority-medium" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.2rem; color: var(--white); flex-shrink: 0; background: var(--warning-color);">
-                        <i class="fas fa-universal-access"></i>
-                    </div>
-                    <div>
-                        <h4>Media Prioridad: Mejoras de Accesibilidad</h4>
-                        <p>Agregar etiquetas alt a todas las imágenes, mejorar contraste de colores y ajustar tamaños de texto para mejor accesibilidad.</p>
-                    </div>
-                </div>
-
-                <div class="recommendation-item" style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: var(--gray-100); border-radius: 8px;">
-                    <div class="recommendation-icon priority-medium" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.2rem; color: var(--white); flex-shrink: 0; background: var(--warning-color);">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div>
-                        <h4>Media Prioridad: Refactoring de Código</h4>
-                        <p>Reducir la complejidad ciclomática, eliminar código duplicado e incrementar la cobertura de tests unitarios al 80%.</p>
-                    </div>
-                </div>
-
-                <div class="recommendation-item" style="display: flex; align-items: flex-start; margin-bottom: 1.5rem; padding: 1rem; background: var(--gray-100); border-radius: 8px;">
-                    <div class="recommendation-icon priority-low" style="width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 1rem; font-size: 1.2rem; color: var(--white); flex-shrink: 0; background: var(--info-color);">
-                        <i class="fas fa-file-alt"></i>
-                    </div>
-                    <div>
-                        <h4>Baja Prioridad: Documentación Técnica</h4>
-                        <p>Crear documentación completa de la arquitectura, APIs y guías de contribución para facilitar el mantenimiento futuro.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================================================
-    VIDEO
-    ================================================== -->
+    <!-- Video Section -->
     <section id="video" class="section alternate">
         <div class="container">
             <div class="section-header">
@@ -889,4 +455,191 @@ git checkout feature/nueva-funcionalidad</code></pre>
             <div class="video-container">
                 <div class="video-wrapper">
                     <iframe 
-                        src="https://www
+                        src="https://www.youtube.com/embed/TU_ID_DE_VIDEO_AQUI" 
+                        title="Calidad de Software - Importancia y Beneficios"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h3>¿Por qué es crucial la calidad de software?</h3>
+                    <p>Este video explora los aspectos fundamentales de la calidad de software y su impacto en:</p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Reducción de costos de mantenimiento</li>
+                        <li><i class="fas fa-check"></i> Mejora de la satisfacción del usuario</li>
+                        <li><i class="fas fa-check"></i> Incremento de la productividad del equipo</li>
+                        <li><i class="fas fa-check"></i> Minimización de riesgos del proyecto</li>
+                        <li><i class="fas fa-check"></i> Competitividad en el mercado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusiones -->
+    <section id="conclusiones" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Conclusiones</h2>
+                <p>Reflexiones finales sobre la importancia de la calidad en el desarrollo de software</p>
+            </div>
+            
+            <div class="conclusions-grid">
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Inversión a Largo Plazo</h3>
+                    <p>La implementación de prácticas de calidad requiere inversión inicial pero genera beneficios exponenciales a largo plazo, reduciendo costos de mantenimiento y mejorando la satisfacción del cliente.</p>
+                </div>
+                
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Cultura Organizacional</h3>
+                    <p>La calidad de software debe ser parte integral de la cultura organizacional, requiriendo compromiso desde la alta dirección hasta los desarrolladores individuales.</p>
+                </div>
+                
+                <div class="conclusion-card">
+                    <div class="conclusion-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Mejora Continua</h3>
+                    <p>Los procesos de calidad deben evolucionar constantemente, adaptándose a nuevas tecnologías, metodologías y requisitos del mercado para mantener su efectividad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recomendaciones -->
+    <section id="recomendaciones" class="section alternate">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recomendaciones</h2>
+                <p>Guía práctica para implementar calidad de software en tu organización</p>
+            </div>
+            
+            <div class="recommendations">
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-graduation-cap"></i> Para Entornos Educativos</h3>
+                    <ul class="recommendation-list">
+                        <li>Integrar conceptos de calidad desde los cursos básicos de programación</li>
+                        <li>Utilizar herramientas de análisis estático de código en proyectos estudiantiles</li>
+                        <li>Fomentar la práctica de code reviews entre estudiantes</li>
+                        <li>Implementar proyectos colaborativos con control de versiones</li>
+                        <li>Enseñar metodologías ágiles y su enfoque en la calidad</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-building"></i> Para Ambientes Profesionales</h3>
+                    <ul class="recommendation-list">
+                        <li>Establecer un proceso formal de aseguramiento de calidad</li>
+                        <li>Implementar pipelines de CI/CD con gates de calidad</li>
+                        <li>Capacitar continuamente al equipo en nuevas prácticas y herramientas</li>
+                        <li>Definir métricas de calidad específicas para cada proyecto</li>
+                        <li>Realizar auditorías regulares de código y procesos</li>
+                    </ul>
+                </div>
+                
+                <div class="recommendation-category">
+                    <h3><i class="fas fa-tools"></i> Herramientas Recomendadas</h3>
+                    <ul class="recommendation-list">
+                        <li><strong>SonarQube:</strong> Análisis continuo de calidad de código</li>
+                        <li><strong>Jenkins/GitLab CI:</strong> Integración y deployment continuo</li>
+                        <li><strong>Jest/JUnit:</strong> Frameworks de testing automatizado</li>
+                        <li><strong>ESLint/PMD:</strong> Linters para diferentes lenguajes</li>
+                        <li><strong>OWASP ZAP:</strong> Análisis de seguridad en aplicaciones</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="implementation-roadmap">
+                <h3>Hoja de Ruta para la Implementación</h3>
+                <div class="roadmap">
+                    <div class="roadmap-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Evaluación Inicial</h4>
+                            <p>Auditar el estado actual de calidad en la organización</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Definición de Estándares</h4>
+                            <p>Establecer normas y procedimientos de calidad específicos</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Capacitación del Equipo</h4>
+                            <p>Formar al personal en las nuevas prácticas y herramientas</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Implementación Gradual</h4>
+                            <p>Aplicar las prácticas de forma incremental en proyectos piloto</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Monitoreo y Mejora</h4>
+                            <p>Evaluar resultados y ajustar procesos continuamente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Calidad de Software</h3>
+                    <p>Guía completa para el desarrollo de software de alta calidad en entornos educativos y profesionales.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#normas">Normas ISO</a></li>
+                        <li><a href="#modelos">Modelos CMMI</a></li>
+                        <li><a href="#estandares">Estándares</a></li>
+                        <li><a href="#pruebas">Metodologías de Testing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Herramientas</h4>
+                    <ul>
+                        <li><a href="#">SonarQube</a></li>
+                        <li><a href="#">Jenkins</a></li>
+                        <li><a href="#">Git</a></li>
+                        <li><a href="#">OWASP</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Calidad de Software. Proyecto educativo sobre mejores prácticas en desarrollo de software.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

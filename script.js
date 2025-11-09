@@ -489,45 +489,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error capturado:', e.error);
         });
     }
-
-    // --- Lógica para la sección de Evaluación Zajuna ---
-    // Calcular puntaje general
-    const scores = {
-        functionality: 78,
-        performance: 65,
-        usability: 72,
-        reliability: 88,
-        security: 76,
-        maintainability: 69
-    };
-    
-    const weights = {
-        functionality: 0.25,
-        performance: 0.20,
-        usability: 0.20,
-        reliability: 0.15,
-        security: 0.15,
-        maintainability: 0.05
-    };
-    
-    // Cálculo del puntaje ponderado
-    let totalScore = 0;
-    for (let metric in scores) {
-        totalScore += scores[metric] * weights[metric];
-    }
-    
-    const overallScoreElement = document.getElementById('overall-score');
-    if (overallScoreElement) {
-        overallScoreElement.textContent = totalScore.toFixed(1);
-    }
-    
-    // Animación de progreso
-    setTimeout(() => {
-        document.querySelectorAll('#evaluacion-zajuna .progress-fill').forEach(bar => {
-            bar.style.transition = 'width 2s ease-in-out';
-        });
-    }, 500);
-    // --- Fin de la lógica de Evaluación Zajuna ---
 });
 
 // Estilos adicionales para elementos creados dinámicamente
